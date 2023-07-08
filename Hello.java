@@ -3,6 +3,7 @@ public class Hello {
 
         helloWorld();
         helloPerson("Кашак");
+        good(4);
         
     }
     public static void helloWorld() {
@@ -13,4 +14,8 @@ public class Hello {
         System.out.printf("Привет %s\n", name);
     }
 
+    public static void good(int n) {
+        for (int i = 0; i < n; i++)
+            System.out.println("GOOD");
+    }
 }
