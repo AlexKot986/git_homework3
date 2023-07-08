@@ -18,4 +18,7 @@ public class Hello {
         for (int i = 0; i < n; i++)
             System.out.println("GOOD");
     }
+
+    //test
+    //test2222
 }
